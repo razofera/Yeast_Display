@@ -1,5 +1,2 @@
 ref_seq_fasta="CCDS.fasta"
 ref_prot_fasta="CCDS_protein.fasta"
-conda="/home/razofera/anaconda3/condabin/conda"
-conda_env="yeast_screen"
-VARIABLE3="Value3"
