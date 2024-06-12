@@ -7,8 +7,9 @@ READ ME
 - clone repository from github
 - optional: add 'run_yeast_screen.sh' to the PATH variable
 - cd to the download directory. Run 'sh setup.sh' to setup conda environment
+- download reference sequence fasta (CCDS_nucleotide.current.fna.gz) and protein fasta (CCDS_protein.current.faa.gz) from https://ftp.ncbi.nlm.nih.gov/pub/CCDS/current_human/
+- 	rename them to CCDS.fasta and CCDS_protein.fasta, respectively and put them inside a new folder called 'reference' inside the downloaded 'hla_screen' directory
 - change the variables in the 'config.sh' file to your specific system
-	this includes putting your own reference file fasta into the 'reference' folder and updating the variable with the name
 
 # DEPENDENCIES
 - OS: Ubuntu 22.04 LTS
