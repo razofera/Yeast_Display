@@ -30,8 +30,8 @@ The pipeline is run using the script 'run_yeast_screen.sh'
 	-o	output data filename
 	-d	directory where input/output files are
 
-Example Code: /n
-cd ./path/to/run_yeast_screen.sh/folder
-conda activate yeast_screen
-sh run_yeast_screen.sh -i "test_input_2peptides" -o "output" -d "/mnt/c/Users/razof/Documents/linux/aly/data/hla_screen/tests"
+Example Code:
+- cd ./path/to/run_yeast_screen.sh/folder
+- conda activate yeast_screen
+- sh run_yeast_screen.sh -i "test_fastq" -o "output" -d "/mnt/c/Users/user/Documents/linux/hla_screen/tests"
 
