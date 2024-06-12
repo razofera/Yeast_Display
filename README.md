@@ -31,8 +31,11 @@ The pipeline is run using the script 'run_yeast_screen.sh'
 	-o	output data filename
 	-d	directory where input/output files are
 
-Example Code:
-- cd ./path/to/run_yeast_screen.sh/folder
+Example Test Code:
+- cd /path/to/run_yeast_screen.sh/folder
+- sh setup.sh
 - conda activate yeast_screen
-- sh run_yeast_screen.sh -i "test_fastq" -o "output" -d "/mnt/c/Users/user/Documents/linux/hla_screen/tests"
+- sh run_yeast_screen.sh -i "insulin_49mer_25bpoverlap.fastq" -o "output" -d "./test"
+
+  The output of this code should match the 'test_output.fasta' file
 
