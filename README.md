@@ -12,15 +12,15 @@ READ ME
 - change the variables in the 'config.sh' file to your specific system, including the names of the CCDS fasta files
 
 # DEPENDENCIES
-- OS: Ubuntu 22.04 LTS
-	fastqc (v0.11.9)
-	trim_galore (v0.6.10)
-	samtools (v1.13) (using htslib 1.13+ds)
-	macs2 (v2.2.9.1)
-	bcftools (v1.13)
-	bedtools (v2.30.0)
-- Python: Anaconda3 (v24.1.2)
-	Biopython (v1.83)
+- OS: Ubuntu 22.04 LTS  
+	fastqc (v0.11.9)  
+	trim_galore (v0.6.10)  
+	samtools (v1.13) (using htslib 1.13+ds)  
+	macs2 (v2.2.9.1)  
+	bcftools (v1.13)  
+	bedtools (v2.30.0)  
+- Python: Anaconda3 (v24.1.2)  
+	Biopython (v1.83)  
 
 # RUNNING THE PIPELINE
 The pipeline is run using the script 'run_yeast_screen.sh'
@@ -31,11 +31,11 @@ The pipeline is run using the script 'run_yeast_screen.sh'
 	-o	output data filename
 	-d	directory where input/output files are
 
-Example Test Code:
-- cd /path/to/run_yeast_screen.sh/folder
-- sh setup.sh
-- conda activate yeast_screen
-- sh run_yeast_screen.sh -i "insulin_49mer_25bpoverlap.fastq" -o "output" -d "./test"
-
-  The output of this code should match the 'test_output.fasta' file
+Example Test Code:  
+cd /path/to/run_yeast_screen.sh/folder  
+sh setup.sh  
+conda activate yeast_screen  
+sh run_yeast_screen.sh -i "insulin_49mer_25bpoverlap.fastq" -o "output" -d "./test"  
+  
+The output of this code should match the 'test_output.fasta' file
 
