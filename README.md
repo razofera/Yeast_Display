@@ -15,12 +15,13 @@ READ ME
   - Pandas Library
  
   # TESTING
-  - Test the code by running it on the provided test files
-  - 	test_known_unlabeled - fastq file with sequencing result
-  - 	test_known_binders - fasta file with reference seqeunces from yeast display screen
-  - 	test_known_peptides - fasta file with reference peptide sequences
+  - Test the code by running it on the provided test files:
+  - test_known_unlabeled - fastq file with sequencing result
+  - test_known_binders - fasta file with reference seqeunces from yeast display screen
+  - test_known_peptides - fasta file with reference peptide sequences
+  
   - The output from the code should match:
-  - 	test_merged_df.csv
+  - test_merged_df.csv
  
   # RUNNING
   - Adjust the variables for filepaths as well as the 'start' and 'stop' variables for adaptors/barcodes in your sequencing library
