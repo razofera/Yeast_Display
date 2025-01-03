@@ -5,6 +5,8 @@ READ ME
 
 # KNOWN REFERENCE
 - If a reference file with sequences being queried in the Yeast Display Screen is available, you can run the 'hla_screen_knownBinders' pipeline.
+- This pipeline takes in a fastq file of binders from a Yeast Display Screen, checks those peptides against a reference fasta representing the library screened, finds matching sequences/peptide sequences/peptide names, and then counts the number of times a match is found.
+- The output is a csv file summarizing the counts
 
   # INSTALLATION
   - clone 'hla_screen_knownBinders' directory
