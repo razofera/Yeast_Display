@@ -21,7 +21,7 @@ READ ME
     - test_known_peptides - fasta file with reference peptide sequences
   
   - The output from the code should match:
-    test_merged_df.csv
+    - test_merged_df.csv
  
   # RUNNING
   - Adjust the variables for filepaths as well as the 'start' and 'stop' variables for adaptors/barcodes in your sequencing library
