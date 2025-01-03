@@ -3,6 +3,34 @@ Tools for Yeast Display Screen Binding Analysis
 
 READ ME
 
+# KNOWN REFERENCE
+- If a reference file with sequences being queried in the Yeast Display Screen is available, you can run the 'hla_screen_knownBinders' pipeline.
+
+  # INSTALLATION
+  - clone 'hla_screen_knownBinders' directory
+  
+  # DEPENDENCIES
+  - Python 3
+  - jupyter notebook
+  - Pandas Library
+ 
+  # TESTING
+  - Test the code by running it on the provided test files
+  - 	test_known_unlabeled - fastq file with sequencing result
+  - 	test_known_binders - fasta file with reference seqeunces from yeast display screen
+  - 	test_known_peptides - fasta file with reference peptide sequences
+  - The output from the code should match:
+  - 	test_merged_df.csv
+ 
+  # RUNNING
+  - Adjust the variables for filepaths as well as the 'start' and 'stop' variables for adaptors/barcodes in your sequencing library
+
+_________________________________________________________________________________________________________________________________________________________________
+
+# UNKNOWN REFERENCE
+- If there are no reference files, then you can run the following pipeline
+- The pipeline first constructs consensus sequences for the peptide binders in the screen, then translates possible ORFs and finally matches to known peptides
+
 # INSTALLATION
 - clone repository from github
 - cd to the download directory 'hla_screen' folder. Run 'sh setup.sh' to setup conda environment
