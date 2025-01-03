@@ -14,19 +14,28 @@ READ ME
   # DEPENDENCIES
   - Python 3
   - jupyter notebook
-  - Pandas Library
+  - Pandas, configparser libraries
  
   # TESTING
-  - Test the code by running it on the provided test files:
+  - Open the file HLA_Screen.ipynb file in Jupyter Notebook (alternately, you can open the hla_screen.py file in your IDE of choice)
+  - Change filepaths variables to point to where the test files are located
+  - Test the code by running all cells with the provided test files:
     - test_known_unlabeled - fastq file with sequencing result
     - test_known_binders - fasta file with reference seqeunces from yeast display screen
     - test_known_peptides - fasta file with reference peptide sequences
-  
+    
   - The output from the code should match:
     - test_merged_df.csv
  
-  # RUNNING
-  - Adjust the variables for filepaths as well as the 'start' and 'stop' variables for adaptors/barcodes in your sequencing library
+  # RUNNING THE PIPELINE
+  - In Jupyter Notebook: run all cells after changing the variables for filepaths as well as the 'start' and 'stop' variables for adaptors/barcodes in your sequencing library
+    
+  - In Local Environment:
+    - For large datasets (those that can't run in Jupyter Notebook)
+    - Run the provided hla_screen_cmd.py script and change the variables in the config.ini file (config file needs to be in same folder as python script)
+    - Example code (in terminal):
+      python hla_screen_cmd.py
+      
 
 _________________________________________________________________________________________________________________________________________________________________
 
